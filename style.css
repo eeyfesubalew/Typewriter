@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left bottom, #7048e8, #5f3dc4);
+}
+.box-qoute {
+}
+.qoute {
+  font-size: 48px;
+  font-weight: 400;
+}
+.blink {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
